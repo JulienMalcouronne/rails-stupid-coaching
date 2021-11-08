@@ -1,0 +1,21 @@
+<%# <% if answer_url == "I+am+going+to+work" %>
+<%# <p><%= "Great" %>
+<h1>Stupid Coaching </h1>
+<br>
+<div class= "question">
+<%= @question %>
+<p>- You</p>
+</div>
+<br>
+<div class= "answer">
+<%= @message %>
+<p>- Your coach</p>
+</div>
+<%= link_to "ask another question", ask_path %>
+
+<%# <% elsif answer_url.include?("?") %>
+<%# <p> <%= "Silly question, get dressed and go to work!" %> </p>
+
+<%# <% else %>
+<%# <p> <%= "I don't care, get dressed and go to work!" %> </p>
+<%# <%  end %>
